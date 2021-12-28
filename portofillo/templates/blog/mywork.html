@@ -1,0 +1,52 @@
+{% block body %}  
+{% load static %}
+
+
+<section class="section my-work" data-section="section3">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Projeler</h2>
+        <div class="line-dec"></div>
+        <span
+          >Aenean sollicitudin ex mauris, lobortis lobortis diam euismod sit
+          amet. Duis ac elit vulputate, lobortis arcu quis, vehicula
+          mauris.</span
+        >
+      </div>
+        <div class="row">
+          
+            <div class="isotope-wrapper">
+            {% for project in projects %}
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="nature">
+                  <h1 class="h2 text-center">{{project.title}}<hr></h1>
+
+                  <figure class="snip1321">
+                    <img
+                    class="img-fluid"
+                      src="{{project.image.url}}"
+                      alt="sq-sample26"
+                      
+                    />
+                    <figcaption>
+                      <a
+                        href="{{project.image.url}}"
+                
+                        data-lightbox="image-1"
+                        data-title="{{project.title}}"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>{{project.title}}</h4>
+                      <span>{{project.description}}</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+{% endblock body %}

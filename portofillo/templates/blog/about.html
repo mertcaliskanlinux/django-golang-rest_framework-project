@@ -1,0 +1,53 @@
+{% block body %}
+{% load static %}
+
+<section class="section about-me" data-section="section1">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Hakkımda</h2>
+        <br>
+      <div class="left-image-post">
+        <div class="row">
+          
+          <div class="col-md-6">
+
+              <div class="left-image">
+                <img src="{{about.imageL.url}}" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="right-text">
+                <h4>{{about.titleL}}</h4>
+                <p>
+                  {{about.descriptionL}}
+                </p>
+                <div class="white-button">
+                </div>
+              </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="right-image-post">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-text">
+              <h4>{{about.titleR}}</h4>
+              <p>
+                {{about.descriptionR}}
+              </p>
+              <div class="white-button">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-image">
+              <img src="{{about.imageR.url}}" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock body %}

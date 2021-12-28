@@ -1,0 +1,23 @@
+Kimlik Sırası: 1
+Ad: Mert
+SoyAd: Çalışkan
+Uzmanlık Alanı: Web Developer
+Linkedin: https://www.linkedin.com/in/mert-%C3%A7al%C4%B1%C5%9Fkan-886298217/
+Facebook: https://www.facebook.com/mertcalskann/
+Twitter: https://twitter.com/mertlinux
+Github: https://github.com/mertcaliskanlnx
+Hakkımda: Mert ÇALIŞKAN Kimdir ?
+Back-End ve Front-End tarafında django web framework alanında tecrübeli , gelişime açık , tutkulu , araştırmacı ve özenli çalışıyorum.
+Çalışmış olduğum projelerde başarılı bir takım oyuncusu olup gerektiğinde sorumluluk alabiliyorum.Şuanda bana yön verece
+Teknoloji: Python
+PROJE AÇIKLAMASI: Python Programlama Dili ile Web Geliştirmeler Yapıyorum / İleri Seviye Python Programlama Sertifikasına Sahibim
+Teknoloji: Go
+PROJE AÇIKLAMASI: Go Programlama Dili ile Temel Seviyenin Biraz ilerisinde olup gingonic library ile geliştirmeler yapmaktayım
+Teknoloji: HTML/CSS
+PROJE AÇIKLAMASI: HTML / CSS ile Kod ve Satırlarını anlayacak  ve  İstediğim Tasarımları Yapabilicek Kadar Bilgi Sahibiyim.
+Teknoloji: MySQL
+PROJE AÇIKLAMASI: Yapmış Olduğum Web Sitelerinde MySQL Veritabanı Kullanmaktayım
+Proje: Django Framework WEB SİTES
+Proje Açıklaması: Django Framework'ile Blog Siteleri / Portofillo Web Siteleri / Esnafların Web Sitelerini Front-end ve BackEnd tarafını kodluyorum
+Proje: Golang REST API
+Proje Açıklaması: Golang Programlama Dili ile REST API'ler Yazıyorum

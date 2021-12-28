@@ -1,0 +1,46 @@
+
+
+{% include 'partials/base.html' %}
+{% load static %}
+{% block body %}
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      {% if messages %}
+        <div class="alert alert-warning text-center" style="width: 40%; margin: auto;" role="alert">
+          <ul class="messages">
+            {% for message in messages %}
+            <li  {% if message.tags %} class=" {{ message.tags }} " {% endif %}> {{ message }} </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
+
+    {% for about in abouts %}
+      {% include 'blog/about.html' %}
+    {% endfor %}
+    {% if goodats %}
+      {% include 'blog/good_at.html' %}
+    {% endif %}
+    {% if projects %}
+      {% include 'blog/mywork.html' %}
+    {% endif %}
+
+
+
+    {% if form %}
+
+      {% include 'blog/contact.html' %}
+    
+    {% endif %}
+    
+
+
+
+      
+
+      
+
+      
+    </div>
+{% endblock body %}

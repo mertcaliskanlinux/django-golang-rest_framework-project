@@ -1,0 +1,50 @@
+{% load static %}
+<div class="responsive-nav">
+    <i class="fa fa-bars" id="menu-toggle"></i>
+    <div id="menu" class="menu">
+      <i class="fa fa-times" id="menu-close"></i>
+      <div class="container">
+        {% for profile in profiles %}
+
+          <div class="image">
+            <a href="#"><img src="{{profile.image.url}}" alt="" /></a>
+          </div>
+            <div class="author-content">
+              <h4>{{profile.name}} {{profile.surname}}</h4>
+              <span>{{profile.description|title}}</span>
+            </div>
+        
+        <nav class="main-nav" role="navigation">
+          <ul class="main-menu">
+            <li><a href="#section1">Hakkımda</a></li>
+            <li><a href="#section2">Hangi Konular'da İyiyim ?</a></li>
+            <li><a href="#section3">Projeler</a></li>
+            <li><a href="#section4">İletişim</a></li>
+          </ul>
+        </nav>
+        <div class="social-network">
+          <ul class="soial-icons">
+            <li>
+              <a href="{{profile.facebook}}"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="{{profile.twitter}}"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="{{profile.linkedin}}"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="{{profile.github}}"><i class="fa fa-dribbble"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="copyright-text">
+          <p>Copyright 2021 Mert ÇALIŞKAN Designer</p>
+        </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
